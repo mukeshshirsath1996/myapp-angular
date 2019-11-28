@@ -1,0 +1,11 @@
+<h1>Employees</h1>
+
+<ul>
+    <li *ngFor="let emp of employees">
+        <div>name: {{emp.name}}</div>
+        <div>address: {{emp.address}}</div> 
+        <div>Id: {{emp.id}}</div>
+    </li>
+</ul>
+
+<router-outlet></router-outlet>
